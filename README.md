@@ -19,9 +19,9 @@ One can see the issues when they open the source files as comments either:
   - at the top of the file or 
   - inline the actual place where the issue occurs
 
-If you need to see how to fix an issue look into the   [implementation](_reviewed-code/README.md#Implementations) (see comment below) md files.
-
 Click here for an example to see the [EmployeeController.cs](src/FehlerhaftPayroll/Controllers/EmployeeController.cs) with review comments.
+
+If you need to see how to fix an issue look into the   [implementation](_reviewed-code/README.md#Implementations) (see comment below) md files.
 
 ## Complete Review Documentation
 
