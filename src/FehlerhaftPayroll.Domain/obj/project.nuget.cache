@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Meug1MmtvNU=",
+  "success": true,
+  "projectFilePath": "C:\\dev\\payroll-review\\src\\FehlerhaftPayroll.Domain\\FehlerhaftPayroll.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

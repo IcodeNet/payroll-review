@@ -1,20 +1,36 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+ This is a test project used to show case issues in code.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Inline code issues.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+The format I propose is this:
+``` 
+   /*
+    * Issue: N+1 query problem
+    * Should: Use proper eager loading
+    * Should: Implement pagination
+    * Should: Add caching strategy
+    */
+   var response = new EmployeesByDepartmentResponse();
+```
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+One can see the issues when they open the source files as comments either:
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+  - at the top of the file or 
+  - inline the actual place where the issue occurs
+
+If you need to see how to fix an issue look into the   [implementation](_reviewed-code/README.md#Implementations) (see comment below) md files.
+
+Click here for an example to see the [EmployeeController.cs](src/FehlerhaftPayroll/Controllers/EmployeeController.cs) with review comments.
+
+## Complete Review Documentation
+
+- We have a [folder _reviewed-code](_reviewed-code/README.md). 
+
+This folder is documentation folder that contains a series of review/implementation md files.
+Those have a complete and thorough review and fixes or suggestions on how to make the code better. 
+
+Just click to go to the root readme.md and then navigate back and forth to the different sections.
+Each file that you open should have a link back to the root README.md from the reviewed-code folder.
+
+tomorrow we will be better :) 
